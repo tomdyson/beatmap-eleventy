@@ -101,18 +101,12 @@ This file contains your site title and author details.
 npx eleventy
 ```
 
-Or build automatically when a template changes:
+Or serve and build automatically when a template changes:
 ```
-npx eleventy --watch
+npx eleventy --serve
 ```
 
 Or in debug mode:
 ```
 DEBUG=* npx eleventy
 ```
-
-## Bug reports, feature requests, etc
-
-This is an ongoing project and I welcome contributions. Feel free to submit a PR.
-
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
